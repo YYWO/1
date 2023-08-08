@@ -3,8 +3,7 @@ const { ScreenConfig } = require('jsdom-browser.screen');
 const jsdom = require("jsdom");
 const { randomInt } = require("crypto");
 const Cookie = require('cookie');
-const { Blob } = require('blob-polyfill');
-const fetch = require('fetch');
+
 const { JSDOM, ResourceLoader } = jsdom;
 
 
